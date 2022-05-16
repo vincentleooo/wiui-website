@@ -4,7 +4,7 @@ This is a website for What Is Up, Indonesia? (WIUI) written using the Next.js fr
 
 ## License
 
-Copyright (C) 2022 What Is Up Indonesia (WIUI)
+Copyright (C) 2022 What Is Up, Indonesia? (WIUI)
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU Affero General Public License as published
