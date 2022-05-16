@@ -1,9 +1,42 @@
+:root {
+  --primary-color: #ed4401;
+  --primary-alt-color: #eba433;
+  --green: #548c2f;
+  --blue: #26547c;
+  --light-blue: #7ea3cc;
+  --lavender: #9c6d83;
+  --dark-magenta: #62466b;
+  --background-color: #eceae9
+}
+
+@font-face {
+  font-family: 'ArialBlack';
+  src: url('./fonts/arial-black.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'ArialEmbedded';
+  src: url('./fonts/arial.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'DINAlternateBold';
+  src: url('./fonts/din-alternate-bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'AthelasItalic';
+  font-style: italic;
+  src: url('./fonts/athelas-italic.woff') format('woff');
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  font-family: Arial, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: var(--background-color);
 }
 
 a {
@@ -11,6 +44,23 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  color: var(--primary-alt-color);
+  cursor: pointer;
+}
+
 * {
   box-sizing: border-box;
+}
+
+p {
+  font-size: 1.2rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.shortBody {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
 }

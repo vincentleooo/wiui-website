@@ -1,0 +1,223 @@
+.main {
+  max-width: 1080px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.sup {
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--primary-color);
+  font-family: ArialBlack;
+  letter-spacing: 0.1rem;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  margin-top: 0rem;
+}
+
+.images {
+  position: relative;
+  width: 100%;
+  height: 250px;
+}
+
+.confused {
+  text-align: center;
+  letter-spacing: 0.05rem;
+  font-size: 1.4rem;
+  max-width: 600px;
+  margin: 1.4rem auto;
+}
+
+.caption {
+  text-align: left;
+  letter-spacing: 0.05rem;
+  font-size: 1.4rem;
+}
+
+.frontPage {
+  min-height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.ctaButton {
+  background-color: white;
+  border: solid thin black;
+  border-radius: 15px;
+  box-shadow: 10px 10px;
+  text-transform: uppercase;
+  font-family: DINAlternateBold;
+  letter-spacing: 0.05rem;
+  font-size: 1.4rem;
+  padding: 0.5rem 1rem;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  transition: all 0.25s ease-in-out;
+}
+
+.ctaButton:hover {
+  position: relative;
+  box-shadow: 12.5px 15px;
+  font-size: 1.5rem;
+  transition: all 0.25s ease-in-out;
+  margin-bottom: calc(20px - 0.1rem);
+  cursor: pointer;
+}
+
+.ctaButtonSpecial {
+  background-color: white;
+  border: solid thin black;
+  border-radius: 15px;
+  box-shadow: 10px 10px;
+  text-transform: uppercase;
+  font-family: DINAlternateBold;
+  letter-spacing: 0.05rem;
+  font-size: 1.4rem;
+  padding: 0.5rem 1rem;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  transition: all 0.25s ease-in-out;
+}
+
+.ctaButtonSpecial:hover {
+  position: relative;
+  box-shadow: 12.5px 15px;
+  font-size: 1.5rem;
+  transition: all 0.25s ease-in-out;
+  margin-bottom: calc(20px - 0.1rem);
+  cursor: pointer;
+}
+
+.ctaButtonWiuipedia {
+  background-color: white;
+  border: solid thin black;
+  border-radius: 15px;
+  box-shadow: 10px 10px;
+  text-transform: capitalize;
+  font-family: AthelasItalic, 'Times New Roman', Times, serif;
+  font-style: italic;
+  letter-spacing: 0.05rem;
+  font-size: 1.4rem;
+  padding: 0.5rem 1rem;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  transition: all 0.25s ease-in-out;
+}
+
+.ctaButtonWiuipedia:hover {
+  position: relative;
+  box-shadow: 12.5px 15px;
+  font-size: 1.5rem;
+  transition: all 0.25s ease-in-out;
+  margin-bottom: calc(20px - 0.1rem);
+  cursor: pointer;
+}
+
+.firstCTAButton {
+  margin: 0 auto;
+}
+
+.divider {
+  margin: 0;
+  width: 100%;
+}
+
+.text {
+  text-transform: uppercase;
+  text-align: left;
+  color: var(--primary-color);
+  font-family: ArialBlack;
+  letter-spacing: 0.1rem;
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+  margin-top: 0rem;
+}
+
+.leftTextDiv {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 5rem;
+  align-items: center;
+}
+
+.rightTextDiv {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 5rem;
+  align-items: center;
+}
+
+.wuiboosCorner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.wuiboosCornerChild {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+@media (max-width: 800px) {
+  .leftTextDiv {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .rightTextDiv {
+    display: flex;
+    flex-direction: column;
+  }
+  .text {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 1.6rem;
+  }
+  .caption {
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  .firstCTAButton {
+    display: flex;
+    justify-content: center;
+  }
+  .sup {
+    font-size: 2.5rem;
+  }
+  .ctaButton {
+    font-size: 1.2rem;
+  }
+  .ctaButtonSpecial {
+    font-size: 1.2rem;
+  }
+  .ctaButtonWiuipedia {
+    font-size: 1.2rem;
+  }
+  .ctaButton:hover {
+    font-size: 1.4rem;
+  }
+  .ctaButtonSpecial:hover {
+    font-size: 1.4rem;
+  }
+  .ctaButtonWiuipedia:hover {
+    font-size: 1.4rem;
+  }
+  .confused {
+    font-size: 1.2rem;
+  }
+  .wuiboosCorner {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    margin-top: 2rem;
+    row-gap: 3rem;
+  }
+  .frontPage {
+    min-height: 0;
+  }
+}

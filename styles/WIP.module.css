@@ -1,0 +1,28 @@
+.main {
+  margin: 2rem auto;
+  position: relative;
+  min-height: 100%;
+}
+
+.images {
+  position: relative;
+  width: 100%;
+  height: 250px;
+  margin: 2rem auto;
+}
+
+.title {
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--primary-color);
+  font-family: ArialBlack;
+  letter-spacing: 0.1rem;
+  font-size: 2.2rem;
+  margin-top: 0rem;
+}
+
+.caption {
+  text-align: center;
+  letter-spacing: 0.05rem;
+  font-size: 1.4rem;
+}
