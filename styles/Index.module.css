@@ -100,7 +100,7 @@
   font-family: AthelasItalic, 'Times New Roman', Times, serif;
   font-style: italic;
   letter-spacing: 0.05rem;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   padding: 0.5rem 1rem;
   margin-right: 20px;
   margin-bottom: 20px;
@@ -181,6 +181,7 @@
     margin-top: 2rem;
     font-size: 1.6rem;
     line-height: 2rem;
+    letter-spacing: 0.04rem;
   }
   .caption {
     text-align: center;
@@ -193,6 +194,7 @@
   .sup {
     font-size: 2.5rem;
     line-height: 2.8rem;
+    letter-spacing: 0.05rem;
   }
   .ctaButton {
     font-size: 1.1rem;
