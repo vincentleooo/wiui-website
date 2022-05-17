@@ -4,7 +4,7 @@ import Header from "../components/Header";
 import styles from "../styles/Index.module.css";
 import Link from "next/link";
 import Footer from "../components/Footer";
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect } from "react";
 
 export default function Index() {
   const [mobile, setMobile] = useState(undefined);
@@ -37,7 +37,7 @@ export default function Index() {
         <title>What is up, Indonesia?</title>
         <meta
           name="description"
-          content="Landing page for What is up, Indonesia?"
+          content="Landing page for What Is Up, Indonesia?"
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -169,11 +169,11 @@ function Divider() {
   );
 }
 
-function FirstComponent({height}) {
+function FirstComponent({ height }) {
   return (
     <div className={styles.frontPage}>
       <h1 className={styles.sup}>Sup, Wuiboos!</h1>
-      <div className={styles.images} style={{height: height}}>
+      <div className={styles.images} style={{ height: height }}>
         <Image
           className={styles.foundWebsite}
           src="/images/front-page-memes/found-website.png"
@@ -340,9 +340,9 @@ function SixthContent() {
   );
 }
 
-function FirstImage({ width, height }) {
+function FirstImage({ height }) {
   return (
-    <div className={styles.images} style={{ height: height, width: width }}>
+    <div className={styles.images} style={{ height: height }}>
       <Image
         className={styles.foundWebsite}
         src="/images/front-page-memes/wiui-logo.png"
@@ -356,9 +356,9 @@ function FirstImage({ width, height }) {
   );
 }
 
-function SecondImage({ width, height }) {
+function SecondImage({ height }) {
   return (
-    <div className={styles.images} style={{ height: height, width: width }}>
+    <div className={styles.images} style={{ height: height }}>
       <Image
         className={styles.foundWebsite}
         src="/images/front-page-memes/newsletter.png"
@@ -372,9 +372,9 @@ function SecondImage({ width, height }) {
   );
 }
 
-function ThirdImage({ width, height }) {
+function ThirdImage({ height }) {
   return (
-    <div className={styles.images} style={{ height: height, width: width }}>
+    <div className={styles.images} style={{ height: height }}>
       <Image
         className={styles.foundWebsite}
         src="/images/front-page-memes/ig-squint.png"
@@ -388,9 +388,9 @@ function ThirdImage({ width, height }) {
   );
 }
 
-function FourthImage({ width, height }) {
+function FourthImage({ height }) {
   return (
-    <div className={styles.images} style={{ height: height, width: width }}>
+    <div className={styles.images} style={{ height: height }}>
       <Image
         className={styles.foundWebsite}
         src="/images/front-page-memes/same-different.png"
@@ -404,9 +404,9 @@ function FourthImage({ width, height }) {
   );
 }
 
-function FifthImage({ width, height }) {
+function FifthImage({ height }) {
   return (
-    <div className={styles.images} style={{ height: height, width: width }}>
+    <div className={styles.images} style={{ height: height }}>
       <Image
         className={styles.foundWebsite}
         src="/images/front-page-memes/acronyms.png"
@@ -420,9 +420,9 @@ function FifthImage({ width, height }) {
   );
 }
 
-function SixthImage({ width, height }) {
+function SixthImage({ height }) {
   return (
-    <div className={styles.images} style={{ height: height, width: width }}>
+    <div className={styles.images} style={{ height: height }}>
       <Image
         className={styles.foundWebsite}
         src="/images/front-page-memes/strong-zero.png"
