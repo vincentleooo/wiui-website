@@ -62,9 +62,8 @@
 .ctaButton:hover {
   position: relative;
   box-shadow: 12.5px 15px;
-  font-size: 1.5rem;
   transition: all 0.25s ease-in-out;
-  margin-bottom: calc(20px - 0.1rem);
+  transform: scale(1.1);
   cursor: pointer;
 }
 
@@ -86,9 +85,8 @@
 .ctaButtonSpecial:hover {
   position: relative;
   box-shadow: 12.5px 15px;
-  font-size: 1.5rem;
   transition: all 0.25s ease-in-out;
-  margin-bottom: calc(20px - 0.1rem);
+  transform: scale(1.1);
   cursor: pointer;
 }
 
@@ -111,14 +109,16 @@
 .ctaButtonWiuipedia:hover {
   position: relative;
   box-shadow: 12.5px 15px;
-  font-size: 1.5rem;
   transition: all 0.25s ease-in-out;
-  margin-bottom: calc(20px - 0.1rem);
+  transform: scale(1.1);
   cursor: pointer;
 }
 
 .firstCTAButton {
   margin: 0 auto;
+}
+
+.firstCTAButton button {
   color: black;
 }
 
@@ -198,15 +198,6 @@
   }
   .ctaButtonWiuipedia {
     font-size: 1.2rem;
-  }
-  .ctaButton:hover {
-    font-size: 1.4rem;
-  }
-  .ctaButtonSpecial:hover {
-    font-size: 1.4rem;
-  }
-  .ctaButtonWiuipedia:hover {
-    font-size: 1.4rem;
   }
   .confused {
     font-size: 1.2rem;
