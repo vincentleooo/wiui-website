@@ -393,7 +393,7 @@ function FourthImage({ height }) {
     <div className={styles.images} style={{ height: height }}>
       <Image
         className={styles.foundWebsite}
-        src="/images/front-page-memes/same-different.png"
+        src="/images/front-page-memes/acronyms.png"
         layout="fill"
         width="100%"
         height="100%"
@@ -409,7 +409,7 @@ function FifthImage({ height }) {
     <div className={styles.images} style={{ height: height }}>
       <Image
         className={styles.foundWebsite}
-        src="/images/front-page-memes/acronyms.png"
+        src="/images/front-page-memes/same-different.png"
         layout="fill"
         width="100%"
         height="100%"
