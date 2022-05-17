@@ -1,4 +1,4 @@
-# WIUI Website (Vincent's Repo)
+# WIUI Website
 
 This is a website for What Is Up, Indonesia? (WIUI) written using the Next.js framework.
 
