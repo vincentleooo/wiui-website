@@ -272,6 +272,7 @@ export default function Header() {
                         aria-haspopup="menu"
                         aria-expanded={dropdown ? "true" : "false"}
                         onClick={() => setDropdown((prev) => !prev)}
+                        style={{padding: "0", cursor: "pointer"}}
                       >
                         <svg
                           xmlns="http://www.w3.org/2000/svg"

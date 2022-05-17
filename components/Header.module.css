@@ -25,12 +25,13 @@
   position: absolute;
   background-color: white;
   min-width: 160px;
-  padding: 12px 16px;
+  padding: 1rem 1.5rem;
   z-index: 1;
   margin-top: 0.5rem;
-  row-gap: 0.4rem;
-  box-shadow: 5px 5px;
+  row-gap: 0.8rem;
+  box-shadow: 8px 8px;
   border: solid black thin;
+  border-radius: 10px;
 }
 
 .mobileDropdown {
@@ -42,13 +43,15 @@
   position: absolute;
   background-color: white;
   min-width: 160px;
-  padding: 12px 16px;
+  padding: 1rem 1.5rem;
   z-index: 1;
   right: 5%;
   margin-top: 0.5rem;
-  row-gap: 0.4rem;
-  box-shadow: 5px 5px;
+  row-gap: 0.8rem;
+  box-shadow: 8px 8px;
   border: solid black thin;
+  border-radius: 10px;
+  text-align: right;
 }
 
 .logo {
