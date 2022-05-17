@@ -13,6 +13,7 @@
   font-size: 3rem;
   margin-bottom: 1rem;
   margin-top: 0rem;
+  line-height: 3.5rem;
 }
 
 .images {
@@ -136,6 +137,7 @@
   font-size: 2.2rem;
   margin-bottom: 1rem;
   margin-top: 0rem;
+  line-height: 2.5rem;
 }
 
 .leftTextDiv {
@@ -178,6 +180,7 @@
     text-align: center;
     margin-top: 2rem;
     font-size: 1.6rem;
+    line-height: 2rem;
   }
   .caption {
     text-align: center;
@@ -189,12 +192,13 @@
   }
   .sup {
     font-size: 2.5rem;
+    line-height: 2.8rem;
   }
   .ctaButton {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
   .ctaButtonSpecial {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
   .ctaButtonWiuipedia {
     font-size: 1.2rem;
