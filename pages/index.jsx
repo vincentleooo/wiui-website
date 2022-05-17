@@ -34,7 +34,7 @@ export default function Index() {
   return (
     <div className="shortBody">
       <Head>
-        <title>What is up, Indonesia?</title>
+        <title>What Is Up, Indonesia?</title>
         <meta
           name="description"
           content="Landing page for What Is Up, Indonesia?"
