@@ -176,12 +176,13 @@ function FirstComponent({ height }) {
       <div className={styles.images} style={{ height: height }}>
         <Image
           className={styles.foundWebsite}
-          src="/images/front-page-memes/found-website.png"
+          src="/images/front-page-memes/found-website.webp"
           layout="fill"
           width="100%"
           height="100%"
           objectFit="contain"
           alt="Found website meme"
+          priority="true"
         ></Image>
       </div>
       <p className={styles.confused}>
@@ -345,7 +346,7 @@ function FirstImage({ height }) {
     <div className={styles.images} style={{ height: height }}>
       <Image
         className={styles.foundWebsite}
-        src="/images/front-page-memes/wiui-logo.png"
+        src="/images/front-page-memes/wiui-logo.webp"
         layout="fill"
         width="100%"
         height="100%"
@@ -361,7 +362,7 @@ function SecondImage({ height }) {
     <div className={styles.images} style={{ height: height }}>
       <Image
         className={styles.foundWebsite}
-        src="/images/front-page-memes/newsletter.png"
+        src="/images/front-page-memes/newsletter.webp"
         layout="fill"
         width="100%"
         height="100%"
@@ -377,7 +378,7 @@ function ThirdImage({ height }) {
     <div className={styles.images} style={{ height: height }}>
       <Image
         className={styles.foundWebsite}
-        src="/images/front-page-memes/ig-squint.png"
+        src="/images/front-page-memes/ig-squint.webp"
         layout="fill"
         width="100%"
         height="100%"
@@ -393,7 +394,7 @@ function FourthImage({ height }) {
     <div className={styles.images} style={{ height: height }}>
       <Image
         className={styles.foundWebsite}
-        src="/images/front-page-memes/acronyms.png"
+        src="/images/front-page-memes/acronyms.webp"
         layout="fill"
         width="100%"
         height="100%"
@@ -409,7 +410,7 @@ function FifthImage({ height }) {
     <div className={styles.images} style={{ height: height }}>
       <Image
         className={styles.foundWebsite}
-        src="/images/front-page-memes/same-different.png"
+        src="/images/front-page-memes/same-different.webp"
         layout="fill"
         width="100%"
         height="100%"
@@ -425,7 +426,7 @@ function SixthImage({ height }) {
     <div className={styles.images} style={{ height: height }}>
       <Image
         className={styles.foundWebsite}
-        src="/images/front-page-memes/strong-zero.png"
+        src="/images/front-page-memes/strong-zero.webp"
         layout="fill"
         width="100%"
         height="100%"
