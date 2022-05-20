@@ -131,7 +131,7 @@ export default function Index() {
 function CTAButton(props) {
   return (
     <div className={props.styles}>
-      <Link href="/work-in-progress">
+      <Link href={props.path?props.path:""}>
         <button className={styles.ctaButton}>{props.title}</button>
       </Link>
     </div>
@@ -141,7 +141,7 @@ function CTAButton(props) {
 function CTAButtonWiuipedia(props) {
   return (
     <div className={props.styles}>
-      <Link href="/work-in-progress">
+      <Link href={props.path?props.path:""}>
         <button className={styles.ctaButtonWiuipedia}>{props.title}</button>
       </Link>
     </div>
@@ -151,10 +151,10 @@ function CTAButtonWiuipedia(props) {
 function DoubleCTAButton(props) {
   return (
     <div className={`${props.styles} ${styles.ctaButtonGrid}`}>
-      <Link href="/work-in-progress">
+      <Link href={props.path?props.path:""}>
         <button className={styles.ctaButtonSpecial}>{props.title1}</button>
       </Link>
-      <Link href="/work-in-progress">
+      <Link href={props.path?props.path:""}>
         <button className={styles.ctaButton}>{props.title2}</button>
       </Link>
     </div>
@@ -201,7 +201,7 @@ function FirstComponent({ height }) {
 function LastComponent() {
   return (
     <div className={styles.frontPage}>
-      <h1 className={styles.sup}>Wuiboos Corner</h1>
+      <h1 className={styles.sup} id="wuiboos-corner">Wuiboos Corner</h1>
       <p className={styles.confused}>
         The WIUI community has become a safe-space for many english-speaking
         young Indonesians to make friends <del>and even romantic love</del>.
@@ -215,6 +215,7 @@ function LastComponent() {
           <br />
           <CTAButton
             title="Join Our Discord"
+            path="https://discord.com/invite/EtBnwSt"
             styles={styles.firstCTAButton}
           ></CTAButton>
         </div>
@@ -223,6 +224,7 @@ function LastComponent() {
           <br />
           <CTAButton
             title="Community-run Finsta"
+            path="https://www.instagram.com/weeweegombal/"
             styles={styles.firstCTAButton}
           ></CTAButton>
         </div>

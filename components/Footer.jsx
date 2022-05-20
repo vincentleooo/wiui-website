@@ -8,10 +8,10 @@ export default function Footer() {
       <main className={styles.main}>
         <ul className={styles.links}>
           <li>
-            <Link href="/work-in-progress">Instagram</Link>
+            <Link href="https://www.instagram.com/whatisupindonesia/">Instagram</Link>
           </li>
           <li>
-            <Link href="/work-in-progress">YouTube</Link>
+            <Link href="https://www.youtube.com/watch?v=uq3NP5Asx5c">YouTube</Link>
           </li>
           <li>
             <Link href="/work-in-progress">Twitter</Link>

@@ -36,7 +36,7 @@ const navLinks = [
   },
   {
     name: "Wuiboos Corner",
-    path: "wuiboos-corner",
+    path: "#wuiboos-corner",
     className: styles.wuiboosCorner,
   },
 ];
@@ -77,7 +77,7 @@ const navLinksNarrow = [
   },
   {
     name: "Wuiboos Corner",
-    path: "wuiboos-corner",
+    path: "#wuiboos-corner",
     className: styles.wuiboosCorner,
   },
 ];
@@ -116,7 +116,7 @@ const navLinksMobile = [
       },
       {
         name: "Wuiboos Corner",
-        path: "wuiboos-corner",
+        path: "#wuiboos-corner",
         className: styles.wuiboosCorner,
       },
     ],
@@ -128,7 +128,7 @@ const Dropdown = ({ submenus, dropdown }) => {
     <ul className={`${styles.dropdown} ${dropdown ? styles.show : ""}`}>
       {submenus.map((submenu, index) => (
         <li key={index} className={submenu.className}>
-          <Link href="/#">
+          <Link href={submenu.path}>
             <a>{submenu.name}</a>
           </Link>
         </li>
@@ -145,7 +145,7 @@ const MobileDropdown = ({ submenus, dropdown }) => {
     >
       {submenus.map((submenu, index) => (
         <li key={index} className={submenu.className}>
-          <Link href="/#">
+          <Link href={submenu.path}>
             <a>{submenu.name}</a>
           </Link>
         </li>
