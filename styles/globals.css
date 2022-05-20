@@ -12,22 +12,26 @@
 @font-face {
   font-family: 'ArialBlack';
   src: url('./fonts/arial-black.woff') format('woff');
+  font-display: swap;
 }
 
 @font-face {
   font-family: 'ArialEmbedded';
   src: url('./fonts/arial.woff') format('woff');
+  font-display: swap;
 }
 
 @font-face {
   font-family: 'DINAlternateBold';
   src: url('./fonts/din-alternate-bold.woff') format('woff');
+  font-display: swap;
 }
 
 @font-face {
   font-family: 'AthelasItalic';
   font-style: italic;
   src: url('./fonts/athelas-italic.woff') format('woff');
+  font-display: swap;
 }
 
 html,
