@@ -45,6 +45,10 @@ a:hover {
   cursor: pointer;
 }
 
+button {
+  color: black;
+}
+
 * {
   box-sizing: border-box;
 }
