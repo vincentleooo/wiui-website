@@ -95,11 +95,11 @@
 }
 
 .wiuipedia {
-  font-family: "Athelas Italic", AthelasItalic, 'Times New Roman', Times, serif;
-  text-transform: initial;
+  font-family: 'Times New Roman', Times, serif;
+  text-transform: lowercase;
   font-style: italic;
   font-size: 1rem;
-  letter-spacing: 0.05rem;
+  letter-spacing: 0.08rem;
 }
 
 .newsletter {

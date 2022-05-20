@@ -348,8 +348,6 @@ function FirstImage({ height }) {
         className={styles.foundWebsite}
         src="/images/front-page-memes/wiui-logo.webp"
         layout="fill"
-        width="100%"
-        height="100%"
         objectFit="contain"
         alt="Found website meme"
       ></Image>
@@ -364,8 +362,6 @@ function SecondImage({ height }) {
         className={styles.foundWebsite}
         src="/images/front-page-memes/newsletter.webp"
         layout="fill"
-        width="100%"
-        height="100%"
         objectFit="contain"
         alt="Found website meme"
       ></Image>
@@ -380,8 +376,6 @@ function ThirdImage({ height }) {
         className={styles.foundWebsite}
         src="/images/front-page-memes/ig-squint.webp"
         layout="fill"
-        width="100%"
-        height="100%"
         objectFit="contain"
         alt="Found website meme"
       ></Image>
@@ -396,8 +390,6 @@ function FourthImage({ height }) {
         className={styles.foundWebsite}
         src="/images/front-page-memes/acronyms.webp"
         layout="fill"
-        width="100%"
-        height="100%"
         objectFit="contain"
         alt="Found website meme"
       ></Image>
@@ -412,8 +404,6 @@ function FifthImage({ height }) {
         className={styles.foundWebsite}
         src="/images/front-page-memes/same-different.webp"
         layout="fill"
-        width="100%"
-        height="100%"
         objectFit="contain"
         alt="Found website meme"
       ></Image>
@@ -428,8 +418,6 @@ function SixthImage({ height }) {
         className={styles.foundWebsite}
         src="/images/front-page-memes/strong-zero.webp"
         layout="fill"
-        width="100%"
-        height="100%"
         objectFit="contain"
         alt="Found website meme"
       ></Image>
@@ -444,8 +432,6 @@ function Discord() {
         className={styles.foundWebsite}
         src="/images/discord-512.webp"
         layout="fill"
-        width="100%"
-        height="100%"
         objectFit="contain"
         alt="Found website meme"
       ></Image>
@@ -466,10 +452,8 @@ function WeeGombal() {
     >
       <Image
         className={styles.foundWebsite}
-        src="/images/weeweegombal.jpg"
+        src="/images/weeweegombal.webp"
         layout="fill"
-        width="100%"
-        height="100%"
         objectFit="cover"
         alt="Found website meme"
       ></Image>

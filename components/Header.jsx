@@ -64,7 +64,7 @@ const navLinksNarrow = [
         className: "",
       },
       {
-        name: "Wiuipedia",
+        name: "wiuipedia",
         path: "/wiuipedia",
         className: styles.wiuipedia,
       },
@@ -159,7 +159,7 @@ function MainLogo(props) {
     <Link href="./">
       <Image
         className={styles.logo}
-        src="/images/wiui-main.jpg"
+        src="/images/wiui-main.webp"
         layout="fixed"
         width={props.width}
         height={props.height}
