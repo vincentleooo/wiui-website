@@ -9,7 +9,7 @@ export default function WIP() {
         <title>Politics 101 Coming Soon! 🚧</title>
         <meta
           name="description"
-          content="Work In Progress Page"
+          content="Politics 101 - coming soon!"
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>

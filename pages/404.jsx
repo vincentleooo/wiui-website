@@ -8,7 +8,7 @@ export default function Custom404() {
         <title>404 - Not Found</title>
         <meta
           name="description"
-          content="404 Landing Page"
+          content="404 - Not Found"
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>

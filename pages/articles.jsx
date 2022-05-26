@@ -9,7 +9,7 @@ export default function WIP() {
         <title>Articles Coming Soon! 🚧</title>
         <meta
           name="description"
-          content="Work In Progress Page"
+          content="Our IG posts in article form!"
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>

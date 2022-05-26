@@ -35,7 +35,7 @@ export default function Index() {
         <title>What Is Up, Indonesia?</title>
         <meta
           name="description"
-          content="Landing page for What Is Up, Indonesia?"
+          content="Spoon-feeding IDN sociopolitics in ENG, one ugly post at a time 🍉"
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
