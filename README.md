@@ -1,4 +1,4 @@
-# WIUI Website
+# WIUI Website [![Netlify Status](https://api.netlify.com/api/v1/badges/3c20b15d-9403-4683-b55f-2919f1de32f8/deploy-status)](https://app.netlify.com/sites/wiui/deploys)
 
 This is a website for What Is Up, Indonesia? (WIUI) written using the Next.js framework.
 
