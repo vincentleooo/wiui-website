@@ -1,9 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
-import Header from "../components/Header";
 import styles from "../styles/Index.module.css";
 import Link from "next/link";
-import Footer from "../components/Footer";
 import { useState, useEffect } from "react";
 
 export default function Index() {
