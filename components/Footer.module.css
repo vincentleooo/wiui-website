@@ -39,6 +39,7 @@
 @media (max-width: 800px) {
   .main {
     flex-direction: column;
+    margin-top: 3rem;
   }
   .links {
     flex-direction: row;
