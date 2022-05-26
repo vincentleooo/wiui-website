@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <>
+    <div>
       <main className={styles.main}>
         <ul className={styles.links}>
           <li>
@@ -30,6 +30,6 @@ export default function Footer() {
           reserved.
         </p>
       </div>
-    </>
+    </div>
   );
 }
