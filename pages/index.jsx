@@ -116,7 +116,6 @@ export default function Index() {
           </>
         )}
       </main>
-
     </div>
   );
 }
@@ -124,8 +123,10 @@ export default function Index() {
 function CTAButton(props) {
   return (
     <div className={props.styles}>
-      <Link href={props.path?props.path:""}>
-        <button className={styles.ctaButton}>{props.title}</button>
+      <Link href={props.path ? props.path : ""}>
+        <a href={props.path ? props.path : ""}>
+          <button className={styles.ctaButton}>{props.title}</button>
+        </a>
       </Link>
     </div>
   );
@@ -134,8 +135,10 @@ function CTAButton(props) {
 function CTAButtonWiuipedia(props) {
   return (
     <div className={props.styles}>
-      <Link href={props.path?props.path:""}>
-        <button className={styles.ctaButtonWiuipedia}>{props.title}</button>
+      <Link href={props.path ? props.path : ""}>
+        <a href={props.path ? props.path : ""}>
+          <button className={styles.ctaButtonWiuipedia}>{props.title}</button>
+        </a>
       </Link>
     </div>
   );
@@ -144,11 +147,26 @@ function CTAButtonWiuipedia(props) {
 function DoubleCTAButton(props) {
   return (
     <div className={`${props.styles} ${styles.ctaButtonGrid}`}>
-      <Link href={props.path?props.path:""}>
-        <button className={styles.ctaButtonSpecial}>{props.title1}</button>
+      <Link href={props.path1 ? props.path1 : ""}>
+        <div className={styles.doubleCTAFirst}>
+          <a href={props.path1 ? props.path1 : ""}>
+            <button className={styles.ctaButtonSpecial}>{props.title1}</button>
+          </a>
+        </div>
       </Link>
-      <Link href={props.path?props.path:""}>
-        <button className={styles.ctaButton}>{props.title2}</button>
+      <Link href={props.path1 ? props.path1 : ""}>
+        <a href={props.path1 ? props.path1 : ""}>
+          <button
+            className={`${styles.ctaButtonSpecial} ${styles.doubleCTAFirstAlt}`}
+          >
+            {props.title1}
+          </button>
+        </a>
+      </Link>
+      <Link href={props.path2 ? props.path2 : ""}>
+        <a href={props.path2 ? props.path2 : ""}>
+          <button className={styles.ctaButton}>{props.title2}</button>
+        </a>
       </Link>
     </div>
   );
@@ -186,6 +204,7 @@ function FirstComponent({ height }) {
       <CTAButton
         title="Sign up for newsletter"
         styles={styles.firstCTAButton}
+        path="/newsletter"
       ></CTAButton>
     </div>
   );
@@ -194,7 +213,9 @@ function FirstComponent({ height }) {
 function LastComponent() {
   return (
     <div className={styles.frontPage}>
-      <h1 className={styles.sup} id="wuiboos-corner">Wuiboos Corner</h1>
+      <h1 className={styles.sup} id="wuiboos-corner">
+        Wuiboos Corner
+      </h1>
       <p className={styles.confused}>
         The WIUI community has become a safe-space for many english-speaking
         young Indonesians to make friends <del>and even romantic love</del>.
@@ -256,7 +277,11 @@ function FirstContent() {
         *currently still not an official newssite or professional. Prone to bias
         & error, so please verify everything and do your own research!
       </p>
-      <CTAButton title="Read More" styles={styles.firstCTAButton}></CTAButton>
+      <CTAButton
+        title="Read More"
+        styles={styles.firstCTAButton}
+        path="/about"
+      ></CTAButton>
     </div>
   );
 }
@@ -276,6 +301,8 @@ function SecondContent() {
         title1="Learn More"
         title2="I Trust U. Sign Me Up"
         styles={styles.firstCTAButton}
+        path1="/newsletter"
+        path2="/newsletter"
       ></DoubleCTAButton>
     </div>
   );
@@ -290,7 +317,11 @@ function ThirdContent() {
       <p className={styles.caption}>
         Read the article version of our posts here!
       </p>
-      <CTAButton title="Articles" styles={styles.firstCTAButton}></CTAButton>
+      <CTAButton
+        title="Articles"
+        styles={styles.firstCTAButton}
+        path="/articles"
+      ></CTAButton>
     </div>
   );
 }
@@ -305,6 +336,7 @@ function FourthContent() {
       <CTAButtonWiuipedia
         title="Wiuipedia"
         styles={styles.firstCTAButton}
+        path="https://www.instagram.com/whatisupindonesia/guide/wiuipedia/17921433047228174/?hl=en"
       ></CTAButtonWiuipedia>
     </div>
   );
@@ -318,6 +350,7 @@ function FifthContent() {
       <CTAButton
         title="Party Profiles"
         styles={styles.firstCTAButton}
+        path="https://docs.google.com/document/d/1GfDZZmhRSRZ2NRULqHErX_-JiAaojZoQEvRJFlKx0Tc/edit"
       ></CTAButton>
     </div>
   );
@@ -331,6 +364,7 @@ function SixthContent() {
       <CTAButton
         title="Indo Politics 101"
         styles={styles.firstCTAButton}
+        path="/indo-politics-101"
       ></CTAButton>
     </div>
   );
@@ -344,7 +378,7 @@ function FirstImage({ height }) {
         src="/images/front-page-memes/wiui-logo.webp"
         layout="fill"
         objectFit="contain"
-        alt="Found website meme"
+        alt="WIUI Logo"
       ></Image>
     </div>
   );
@@ -358,7 +392,7 @@ function SecondImage({ height }) {
         src="/images/front-page-memes/newsletter.webp"
         layout="fill"
         objectFit="contain"
-        alt="Found website meme"
+        alt="Newsletter meme"
       ></Image>
     </div>
   );
@@ -372,7 +406,7 @@ function ThirdImage({ height }) {
         src="/images/front-page-memes/ig-squint.webp"
         layout="fill"
         objectFit="contain"
-        alt="Found website meme"
+        alt="Squinting meme"
       ></Image>
     </div>
   );
@@ -386,7 +420,7 @@ function FourthImage({ height }) {
         src="/images/front-page-memes/acronyms.webp"
         layout="fill"
         objectFit="contain"
-        alt="Found website meme"
+        alt="Acronyms meme"
       ></Image>
     </div>
   );
@@ -400,7 +434,7 @@ function FifthImage({ height }) {
         src="/images/front-page-memes/same-different.webp"
         layout="fill"
         objectFit="contain"
-        alt="Found website meme"
+        alt="Similarity meme"
       ></Image>
     </div>
   );
@@ -414,7 +448,7 @@ function SixthImage({ height }) {
         src="/images/front-page-memes/strong-zero.webp"
         layout="fill"
         objectFit="contain"
-        alt="Found website meme"
+        alt="Zero knowledge meme"
       ></Image>
     </div>
   );
@@ -428,7 +462,7 @@ function Discord() {
         src="/images/discord-512.webp"
         layout="fill"
         objectFit="contain"
-        alt="Found website meme"
+        alt="Discord logo"
       ></Image>
     </div>
   );
@@ -450,7 +484,7 @@ function WeeGombal() {
         src="/images/weeweegombal.webp"
         layout="fill"
         objectFit="cover"
-        alt="Found website meme"
+        alt="Finsta logo"
       ></Image>
     </div>
   );
