@@ -32,7 +32,7 @@ export default function Index() {
   }, []);
 
   return (
-    <div className="shortBody">
+    <div>
       <Head>
         <title>What Is Up, Indonesia?</title>
         <meta
@@ -41,8 +41,6 @@ export default function Index() {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
-      <Header></Header>
 
       <main className={styles.main}>
         {mobile && (
@@ -121,9 +119,6 @@ export default function Index() {
         )}
       </main>
 
-      <footer className={styles.footer}>
-        <Footer />
-      </footer>
     </div>
   );
 }
