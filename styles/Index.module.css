@@ -163,6 +163,18 @@
   flex-direction: column;
 }
 
+.ctaButtonGrid {
+  display: block;
+}
+
+.doubleCTAFirst {
+  display: none;
+}
+
+.doubleCTAFirstAlt {
+  display: inline;
+}
+
 @media (max-width: 800px) {
   .leftTextDiv {
     display: flex;
@@ -192,11 +204,17 @@
     line-height: 2.8rem;
     letter-spacing: 0.05rem;
   }
+  .ctaButtonGrid {
+    display: grid;
+    row-gap: 0;
+  }
   .ctaButton {
     font-size: 1.1rem;
+    margin-right: 0;
   }
   .ctaButtonSpecial {
     font-size: 1.1rem;
+    margin-right: 0%;
   }
   .ctaButtonWiuipedia {
     font-size: 1.2rem;
@@ -213,5 +231,13 @@
   }
   .frontPage {
     min-height: 0;
+    margin-top: 2rem;
+  }
+  .doubleCTAFirst {
+    display: flex;
+    justify-content: center;
+  }
+  .doubleCTAFirstAlt {
+    display: none;
   }
 }
