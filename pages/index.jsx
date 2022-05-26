@@ -273,7 +273,7 @@ function FirstContent() {
         Simply put, we’re a media platform that spoon-feeds Indonesian
         sociopolitics in english and memes.
       </p>
-      <p className={styles.caption} style={{ "font-size": "1rem" }}>
+      <p className={styles.caption} style={{ fontSize: "1rem", lineHeight: "1.2rem" }}>
         *currently still not an official newssite or professional. Prone to bias
         & error, so please verify everything and do your own research!
       </p>

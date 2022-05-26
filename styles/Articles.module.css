@@ -8,13 +8,14 @@
   text-transform: uppercase;
   color: var(--primary-color);
   font-family: "Arial Black", ArialBlack;
-  margin-top: 3rem;
+  margin-top: 4rem;
   letter-spacing: 0.05rem;
 }
 
 .h2 {
   letter-spacing: 0.03rem;
-  margin-top: 2rem;
+  margin-top: 3rem;
+  font-size: 1.6rem;
 }
 
 .para {
@@ -57,5 +58,17 @@
   .h2 {
     letter-spacing: 0.03rem;
     margin-top: 2rem;
+  }
+  .para {
+    letter-spacing: 0.02rem;
+    line-height: 1.6rem;
+    margin-bottom: 1.6rem;
+    margin-top: 1.6rem;
+  }
+  .ul, .ol {
+    margin-top: 1.6rem;
+    margin-bottom: 1.6rem;
+    row-gap: 0.5rem;
+    line-height: 1.6rem;
   }
 }

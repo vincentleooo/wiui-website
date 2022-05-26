@@ -22,12 +22,14 @@
   font-size: 1.4rem;
   max-width: 600px;
   margin: 1.4rem auto;
+  line-height: 1.8rem;
 }
 
 .caption {
   text-align: left;
   letter-spacing: 0.05rem;
   font-size: 1.4rem;
+  line-height: 1.8rem;
 }
 
 .frontPage {
@@ -133,7 +135,7 @@
   font-size: 2.2rem;
   margin-bottom: 1rem;
   margin-top: 0rem;
-  line-height: 2.5rem;
+  line-height: 2.8rem;
 }
 
 .leftTextDiv {
@@ -188,12 +190,13 @@
     text-align: center;
     margin-top: 2rem;
     font-size: 1.6rem;
-    line-height: 2rem;
+    line-height: 2.2rem;
     letter-spacing: 0.04rem;
   }
   .caption {
     text-align: center;
     font-size: 1.2rem;
+    line-height: 1.6rem;
   }
   .firstCTAButton {
     display: flex;
@@ -221,6 +224,7 @@
   }
   .confused {
     font-size: 1.2rem;
+    line-height: 1.6rem;
   }
   .wuiboosCorner {
     display: grid;
