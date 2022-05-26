@@ -76,3 +76,9 @@ p {
   margin: 0 auto;
   margin-top: 2rem;
 }
+
+@media (max-width: 800px) {
+  .mainDiv {
+    margin-top: 0;
+  }
+}
