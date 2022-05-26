@@ -1,6 +1,12 @@
 # WIUI Website [![Netlify Status](https://api.netlify.com/api/v1/badges/3c1c474c-98b8-4612-aaf7-9b7dc5b8c51c/deploy-status)](https://app.netlify.com/sites/wiui/deploys)
 
-This is a website for What Is Up, Indonesia? (WIUI) written using the Next.js framework.
+This is a website for What Is Up, Indonesia? (WIUI) written using the Next.js framework. The website is deployed through Netlify.
+
+## Setup
+
+1. Clone the repository. Make sure you have the latest version of Node.js installed.
+2. Run `yarn install` to install the package dependencies.
+3. Run `yarn dev` to start the `localhost` server.
 
 ## License
 
