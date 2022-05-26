@@ -26,17 +26,17 @@ const navLinks = [
   },
   {
     name: "Wiuipedia",
-    path: "/wiuipedia",
+    path: "https://www.instagram.com/whatisupindonesia/guide/wiuipedia/17921433047228174/?hl=en",
     className: styles.wiuipedia,
   },
   {
     name: "Party Profiles",
-    path: "/party-profiles",
+    path: "https://docs.google.com/document/d/1GfDZZmhRSRZ2NRULqHErX_-JiAaojZoQEvRJFlKx0Tc/edit",
     className: "",
   },
   {
     name: "Wuiboos Corner",
-    path: "#wuiboos-corner",
+    path: "/#wuiboos-corner",
     className: styles.wuiboosCorner,
   },
 ];
@@ -65,19 +65,19 @@ const navLinksNarrow = [
       },
       {
         name: "wiuipedia",
-        path: "/wiuipedia",
+        path: "https://www.instagram.com/whatisupindonesia/guide/wiuipedia/17921433047228174/?hl=en",
         className: styles.wiuipedia,
       },
       {
         name: "Party Profiles",
-        path: "/party-profiles",
+        path: "https://docs.google.com/document/d/1GfDZZmhRSRZ2NRULqHErX_-JiAaojZoQEvRJFlKx0Tc/edit",
         className: "",
       },
     ],
   },
   {
     name: "Wuiboos Corner",
-    path: "#wuiboos-corner",
+    path: "/#wuiboos-corner",
     className: styles.wuiboosCorner,
   },
 ];
@@ -106,17 +106,17 @@ const navLinksMobile = [
       },
       {
         name: "Wiuipedia",
-        path: "/wiuipedia",
+        path: "https://www.instagram.com/whatisupindonesia/guide/wiuipedia/17921433047228174/?hl=en",
         className: styles.wiuipedia,
       },
       {
         name: "Party Profiles",
-        path: "/party-profiles",
+        path: "https://docs.google.com/document/d/1GfDZZmhRSRZ2NRULqHErX_-JiAaojZoQEvRJFlKx0Tc/edit",
         className: "",
       },
       {
         name: "Wuiboos Corner",
-        path: "#wuiboos-corner",
+        path: "/#wuiboos-corner",
         className: styles.wuiboosCorner,
       },
     ],
@@ -129,7 +129,7 @@ const Dropdown = ({ submenus, dropdown }) => {
       {submenus.map((submenu, index) => (
         <li key={index} className={submenu.className}>
           <Link href={submenu.path}>
-            <a>{submenu.name}</a>
+            <a href={submenu.path}>{submenu.name}</a>
           </Link>
         </li>
       ))}
@@ -146,7 +146,7 @@ const MobileDropdown = ({ submenus, dropdown }) => {
       {submenus.map((submenu, index) => (
         <li key={index} className={submenu.className}>
           <Link href={submenu.path}>
-            <a>{submenu.name}</a>
+            <a href={submenu.path}>{submenu.name}</a>
           </Link>
         </li>
       ))}
@@ -157,14 +157,17 @@ const MobileDropdown = ({ submenus, dropdown }) => {
 function MainLogo(props) {
   return (
     <Link href="./">
-      <Image
-        className={styles.logo}
-        src="/images/wiui-main.webp"
-        layout="fixed"
-        width={props.width}
-        height={props.height}
-        alt="WIUI's main logo"
-      ></Image>
+      <a href="./">
+        <Image
+          className={styles.logo}
+          src="/images/wiui-main.webp"
+          layout="fixed"
+          width={props.width}
+          height={props.height}
+          alt="WIUI's main logo"
+          priority="true"
+        ></Image>
+      </a>
     </Link>
   );
 }
@@ -224,7 +227,7 @@ export default function Header() {
                 <ul key={index}>
                   <Link href={link.path}>
                     <li className={link.className}>
-                      <a>{link.name}</a>
+                      <a href={link.path}>{link.name}</a>
                     </li>
                   </Link>
                 </ul>
@@ -253,7 +256,7 @@ export default function Header() {
                   ) : (
                     <Link href={link.path}>
                       <li className={link.className}>
-                        <a>{link.name}</a>
+                        <a href={link.path}>{link.name}</a>
                       </li>
                     </Link>
                   )}
@@ -272,7 +275,7 @@ export default function Header() {
                         aria-haspopup="menu"
                         aria-expanded={dropdown ? "true" : "false"}
                         onClick={() => setDropdown((prev) => !prev)}
-                        style={{padding: "0", cursor: "pointer"}}
+                        style={{ padding: "0", cursor: "pointer" }}
                       >
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -292,7 +295,7 @@ export default function Header() {
                   ) : (
                     <Link href={link.path}>
                       <li className={link.className}>
-                        <a>{link.name}</a>
+                        <a href={link.path}>{link.name}</a>
                       </li>
                     </Link>
                   )}
