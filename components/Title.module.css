@@ -1,0 +1,21 @@
+.title, .caption {
+  max-width: 650px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.title {
+  font-family: "Arial Black", ArialBlack;
+  font-size: 3rem;
+  color: var(--primary-color);
+  margin-bottom: 0%;
+  margin-top: 5rem;
+}
+
+.caption {
+  color: var(--primary-color);
+  margin-top: 0.3rem;
+  letter-spacing: 0.02rem;
+}
