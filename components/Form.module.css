@@ -1,0 +1,68 @@
+.main {
+  background: var(--primary-color);
+  border-radius: 10px;
+  color: white;
+  margin: 5rem auto;
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.formWrapper {
+  padding: 3rem 5%;
+}
+
+.formWrapper p {
+  max-width: 650px;
+  margin-bottom: 1.8rem;
+  line-height: 1.8rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header {
+  font-size: 2.5rem;
+  font-family: "Arial Black", ArialBlack;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 3rem;
+}
+
+.inputs {
+  display: grid;
+  margin: 1.8rem 0;
+  row-gap: 1rem;
+  width: 90%;
+  max-width: 650px;
+}
+
+.ctaButton {
+  background-color: white;
+  border: solid thin black;
+  border-radius: 15px;
+  box-shadow: 10px 10px;
+  text-transform: uppercase;
+  font-family: "DIN Alternate Bold", DINAlternateBold, -apple-system,
+    BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell,
+    "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  letter-spacing: 0.05rem;
+  font-size: 1.4rem;
+  padding: 0.5rem 1rem;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  transition: all 0.25s ease-in-out;
+}
+
+.ctaButton:hover {
+  position: relative;
+  box-shadow: 12.5px 15px;
+  transition: all 0.25s ease-in-out;
+  transform: scale(1.1);
+  cursor: pointer;
+}
