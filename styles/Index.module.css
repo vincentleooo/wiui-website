@@ -214,18 +214,21 @@
   }
   .ctaButtonGrid {
     display: grid;
-    row-gap: 0;
+    row-gap: 5px;
   }
   .ctaButton {
     font-size: 1.1rem;
     margin-right: 10px;
+    margin-bottom: 10px;
   }
   .ctaButtonSpecial {
     font-size: 1.1rem;
     margin-right: 10px;
+    margin-bottom: 10px;
   }
   .ctaButtonWiuipedia {
     font-size: 1.2rem;
+    margin-bottom: 10px;
   }
   .confused {
     font-size: 1.2rem;
