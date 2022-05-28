@@ -66,3 +66,10 @@
   transform: scale(1.1);
   cursor: pointer;
 }
+
+@media (max-width: 800px) {
+  .header {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+}

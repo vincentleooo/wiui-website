@@ -8,7 +8,7 @@
 
 .title {
   font-family: "Arial Black", ArialBlack;
-  font-size: 3rem;
+  font-size: 2.5rem;
   color: var(--primary-color);
   margin-bottom: 0%;
   margin-top: 5rem;
@@ -18,4 +18,12 @@
   color: var(--primary-color);
   margin-top: 0.3rem;
   letter-spacing: 0.02rem;
+  font-size: 1rem;
+}
+
+@media (max-width: 800px) {
+  .title {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
 }
