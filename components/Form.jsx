@@ -1,13 +1,14 @@
 import styles from "./Form.module.css";
 import IframeResizer from "iframe-resizer-react";
 
-export default function Form() {
+export default function Form(props) {
   return (
-    <div className={styles.main}>
+    <div className={styles.main} id={props.id ? props.id : ""}>
       <div className={styles.formWrapper}>
         <label htmlFor="bd-email" className={styles.header}>
           NEWSLETTER SIGN UP!
         </label>
+        <p style={{margin: "1rem auto 0 auto", fontSize: "1.2rem"}}><i><b>WIUI The People Newsletter</b></i></p>
         <p>
           Btw, as soon as you click &quot;subscribe&quot; there will be an option to
           upgrade your subscription where you can choose to pay for our
