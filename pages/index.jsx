@@ -204,7 +204,7 @@ function FirstComponent({ height }) {
       <CTAButton
         title="Sign up for newsletter"
         styles={styles.firstCTAButton}
-        path="/newsletter"
+        path="/newsletter#newsletter-sign-up"
       ></CTAButton>
     </div>
   );
@@ -302,7 +302,7 @@ function SecondContent() {
         title2="I Trust U. Sign Me Up"
         styles={styles.firstCTAButton}
         path1="/newsletter"
-        path2="/newsletter"
+        path2="/newsletter#newsletter-sign-up"
       ></DoubleCTAButton>
     </div>
   );
@@ -336,7 +336,7 @@ function FourthContent() {
       <CTAButtonWiuipedia
         title="Wiuipedia"
         styles={styles.firstCTAButton}
-        path="https://www.instagram.com/whatisupindonesia/guide/wiuipedia/17921433047228174/?hl=en"
+        path="/wiuipedia"
       ></CTAButtonWiuipedia>
     </div>
   );
@@ -350,7 +350,7 @@ function FifthContent() {
       <CTAButton
         title="Party Profiles"
         styles={styles.firstCTAButton}
-        path="https://docs.google.com/document/d/1GfDZZmhRSRZ2NRULqHErX_-JiAaojZoQEvRJFlKx0Tc/edit"
+        path="/party-profiles"
       ></CTAButton>
     </div>
   );
@@ -360,7 +360,7 @@ function SixthContent() {
   return (
     <div>
       <h1 className={styles.text}>“HELP... I LITERALLY KNOW NOTHING...”</h1>
-      <p className={styles.caption}>Check out our crash course</p>
+      <p className={styles.caption}>Check out our crash course!</p>
       <CTAButton
         title="Indo Politics 101"
         styles={styles.firstCTAButton}
