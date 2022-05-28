@@ -26,12 +26,12 @@ const navLinks = [
   },
   {
     name: "Wiuipedia",
-    path: "https://www.instagram.com/whatisupindonesia/guide/wiuipedia/17921433047228174/?hl=en",
+    path: "/wiuipedia",
     className: styles.wiuipedia,
   },
   {
     name: "Party Profiles",
-    path: "https://docs.google.com/document/d/1GfDZZmhRSRZ2NRULqHErX_-JiAaojZoQEvRJFlKx0Tc/edit",
+    path: "/party-profiles",
     className: "",
   },
   {
@@ -65,12 +65,12 @@ const navLinksNarrow = [
       },
       {
         name: "wiuipedia",
-        path: "https://www.instagram.com/whatisupindonesia/guide/wiuipedia/17921433047228174/?hl=en",
+        path: "/wiuipedia",
         className: styles.wiuipedia,
       },
       {
         name: "Party Profiles",
-        path: "https://docs.google.com/document/d/1GfDZZmhRSRZ2NRULqHErX_-JiAaojZoQEvRJFlKx0Tc/edit",
+        path: "/party-profiles",
         className: "",
       },
     ],
@@ -106,12 +106,12 @@ const navLinksMobile = [
       },
       {
         name: "Wiuipedia",
-        path: "https://www.instagram.com/whatisupindonesia/guide/wiuipedia/17921433047228174/?hl=en",
+        path: "/wiuipedia",
         className: styles.wiuipedia,
       },
       {
         name: "Party Profiles",
-        path: "https://docs.google.com/document/d/1GfDZZmhRSRZ2NRULqHErX_-JiAaojZoQEvRJFlKx0Tc/edit",
+        path: "/party-profiles",
         className: "",
       },
       {
