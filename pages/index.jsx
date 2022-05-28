@@ -182,7 +182,7 @@ function Divider() {
 
 function FirstComponent({ height }) {
   return (
-    <div className={styles.frontPage}>
+    <div className={styles.frontPage} style={{marginTop: "0rem"}}>
       <h1 className={styles.sup}>Sup, Wuiboos!</h1>
       <div className={styles.images} style={{ height: height }}>
         <Image
