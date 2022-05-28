@@ -178,6 +178,10 @@
   display: inline;
 }
 
+.firstComp {
+  margin-top: 0%;
+}
+
 @media (max-width: 800px) {
   .leftTextDiv {
     display: flex;
@@ -246,5 +250,8 @@
   }
   .doubleCTAFirstAlt {
     display: none;
+  }
+  .firstComp {
+    margin-top: 2rem;
   }
 }
