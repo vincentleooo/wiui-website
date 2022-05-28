@@ -13,6 +13,8 @@
   font-family: "ArialBlack";
   src: url("./fonts/arial-black.woff") format("woff");
   font-display: swap;
+  font-weight: 400;
+  letter-spacing: 0;
 }
 
 @font-face {
