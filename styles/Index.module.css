@@ -130,7 +130,7 @@
   text-transform: uppercase;
   text-align: left;
   color: var(--primary-color);
-  font-family: ArialBlack;
+  font-family: "Arial Black", ArialBlack;
   /* letter-spacing: 0.1rem; */
   font-size: 2.2rem;
   margin-bottom: 1rem;

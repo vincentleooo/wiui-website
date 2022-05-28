@@ -11,10 +11,11 @@
 
 @font-face {
   font-family: "ArialBlack";
-  src: url("./fonts/arial-black.woff") format("woff");
+  src: url("./fonts/arial-black.woff2") format("woff2"),
+    url("./fonts/arial-black.woff") format("woff"),
+    url("./fonts/arial-black.ttf") format("truetype");
   font-display: swap;
-  font-weight: 400;
-  letter-spacing: 0;
+  font-weight: bold;
 }
 
 @font-face {
@@ -25,7 +26,7 @@
 
 @font-face {
   font-family: "DINAlternateBold";
-  src: url("./fonts/din-alternate-bold.woff") format("woff");
+  src: url("./fonts/din-alternate-bold.woff2") format("woff2"), url("./fonts/din-alternate-bold.woff") format("woff"), url("./fonts/din-alternate-bold.ttf") format("truetype");
   font-display: swap;
 }
 
