@@ -157,7 +157,6 @@ const MobileDropdown = ({ submenus, dropdown }) => {
 function MainLogo(props) {
   return (
     <Link href="./">
-      <a href="./">
         <Image
           className={styles.logo}
           src="/images/wiui-main.webp"
@@ -167,7 +166,6 @@ function MainLogo(props) {
           alt="WIUI's main logo"
           priority="true"
         ></Image>
-      </a>
     </Link>
   );
 }
