@@ -226,7 +226,7 @@ function LastComponent() {
       <div className={styles.wuiboosCorner}>
         <div className={styles.wuiboosCornerChild}>
           <Discord />
-          <br />
+          <span style={{fontSize: "1.2rem"}}>&nbsp;</span>
           <CTAButton
             title="Join Our Discord"
             path="https://discord.com/invite/EtBnwSt"
@@ -235,7 +235,7 @@ function LastComponent() {
         </div>
         <div className={styles.wuiboosCornerChild}>
           <WeeGombal />
-          <br />
+          <span style={{fontSize: "1.2rem"}}>&nbsp;</span>
           <CTAButton
             title="Community-run Finsta"
             path="https://www.instagram.com/weeweegombal/"
