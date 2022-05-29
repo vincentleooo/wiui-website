@@ -243,9 +243,9 @@
   }
   .frontPage {
     min-height: 0;
-    margin-top: 2rem;
-    scroll-margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-top: 3rem;
+    scroll-margin-top: 3rem;
+    margin-bottom: 3rem;
   }
   .doubleCTAFirst {
     display: flex;
