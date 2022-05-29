@@ -213,7 +213,7 @@ function FirstComponent({ height }) {
 function LastComponent() {
   return (
     <div className={styles.frontPage} id="wuiboos-corner">
-      <h1 className={styles.sup}>
+      <h1 className={styles.sup} style={{marginBottom: "0"}}>
         Wuiboos Corner
       </h1>
       <p className={styles.confused}>
