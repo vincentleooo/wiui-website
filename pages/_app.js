@@ -4,6 +4,8 @@ import styles from "../styles/Articles.module.css";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import Link from "next/link";
+import Head from "next/head";
+import Script from "next/script";
 
 // Taken from https://github.com/leerob/leerob.io/blob/main/components/MDXComponents.tsx#L13
 const CustomLink = (props) => {
@@ -33,6 +35,21 @@ const CustomLink = (props) => {
 function MyApp({ Component, pageProps }) {
   return (
     <div className="shortBody">
+      <div>
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-JYZJ0CBR31"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){window.dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-JYZJ0CBR31');
+        `}
+        </Script>
+      </div>
       <Header />
       <div className="mainDiv">
         <MDXProvider
