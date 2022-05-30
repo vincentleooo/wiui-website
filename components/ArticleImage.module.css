@@ -1,0 +1,23 @@
+.imageContainer {
+  max-width: 650px;
+  margin: auto;
+  height: 100%;
+}
+
+.imageContainer > span {
+  position: unset !important;
+}
+
+.image {
+  object-fit: contain;
+  width: 100% !important;
+  position: relative !important;
+  height: unset !important;
+}
+
+.figCaption {
+  max-width: 650px;
+  width: 90%;
+  text-align: center;
+  margin: 1rem auto;
+}
