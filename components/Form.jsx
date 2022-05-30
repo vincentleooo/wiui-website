@@ -12,7 +12,7 @@ export default function Form(props) {
         <p>
           Btw, as soon as you click &quot;subscribe&quot; there will be an option to
           upgrade your subscription where you can choose to pay for our
-          newsletter (any amount!) You can definitely get it for free, but we
+          newsletter monthly (it will appear as $5 as default, but you can type any amount!) You can definitely get it for free, but we
           would appreciate if you would give your appreciation & support in a
           form of $$$ too ❤️
         </p>
