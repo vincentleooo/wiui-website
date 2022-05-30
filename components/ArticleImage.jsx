@@ -5,7 +5,7 @@ export default function MDXImage(props) {
   if (props.title !== undefined) {
     return (
       <div style={{ margin: "2rem 0" }}>
-        <figure style={{marginInlineStart: "0", marginInlineEnd: "0"}}>
+        <figure style={{ marginInlineStart: "0", marginInlineEnd: "0" }}>
           <div className={styles.imageContainer}>
             <Image
               src={props.src}
@@ -14,6 +14,7 @@ export default function MDXImage(props) {
               height="100%"
               objectFit="cover"
               className={styles.image}
+              unoptimized={props.gif ? props.gif : false}
             />
           </div>
           <figcaption className={styles.figCaption}>{props.title}</figcaption>
@@ -31,6 +32,7 @@ export default function MDXImage(props) {
             height="100%"
             objectFit="cover"
             className={styles.image}
+            unoptimized={props.gif ? props.gif : false}
           />
         </div>
       </div>
