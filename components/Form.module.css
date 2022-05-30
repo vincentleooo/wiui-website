@@ -7,6 +7,15 @@
   scroll-margin-top: 5rem;
 }
 
+.main a {
+  color: var(--background-color);
+  text-decoration: underline;
+}
+
+.main a:hover {
+  color: var(--primary-alt-color)
+}
+
 .form {
   display: flex;
   justify-content: center;
