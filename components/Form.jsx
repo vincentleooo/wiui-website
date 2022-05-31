@@ -35,7 +35,7 @@ export default function Form(props) {
           }}
           id="iframe"
         />
-        <p>
+        <p style={{marginBottom: "0"}}>
           If you are unable to upgrade with the available payment method, you
           can tip us through our <a href="https://saweria.co/wiui">Tip Jar</a> or <a href="https://www.paypal.com/paypalme/wiui">PayPal</a> instead!
         </p>
