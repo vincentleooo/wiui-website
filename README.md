@@ -1,4 +1,4 @@
-# WIUI Website [![Netlify Status](https://api.netlify.com/api/v1/badges/3c1c474c-98b8-4612-aaf7-9b7dc5b8c51c/deploy-status)](https://app.netlify.com/sites/wiui/deploys) [![AGPL](https://img.shields.io/github/license/coala/coala.svg)](https://www.gnu.org/licenses/agpl-3.0.html)
+# WIUI Website [![Netlify Status](https://api.netlify.com/api/v1/badges/3c1c474c-98b8-4612-aaf7-9b7dc5b8c51c/deploy-status?branch=dev)](https://app.netlify.com/sites/wiui/deploys) [![AGPL](https://img.shields.io/github/license/coala/coala.svg)](https://www.gnu.org/licenses/agpl-3.0.html)
 
 This is a website for What Is Up, Indonesia? (WIUI) written using the Next.js framework. The website is deployed through Netlify.
 
