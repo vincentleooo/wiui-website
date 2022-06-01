@@ -35,21 +35,19 @@ const CustomLink = (props) => {
 function MyApp({ Component, pageProps }) {
   return (
     <div className="shortBody">
-      <div>
-        <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-JYZJ0CBR31"
-          strategy="afterInteractive"
-        />
-        <Script id="google-analytics" strategy="afterInteractive">
-          {`
+      <Script
+        src="https://www.googletagmanager.com/gtag/js?id=G-JYZJ0CBR31"
+        strategy="afterInteractive"
+      />
+      <Script id="google-analytics" strategy="afterInteractive">
+        {`
           window.dataLayer = window.dataLayer || [];
           function gtag(){window.dataLayer.push(arguments);}
           gtag('js', new Date());
 
           gtag('config', 'G-JYZJ0CBR31');
         `}
-        </Script>
-      </div>
+      </Script>
       <Header />
       <div className="mainDiv">
         <MDXProvider
