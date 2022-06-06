@@ -4,7 +4,6 @@ import styles from "../styles/Articles.module.css";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import Link from "next/link";
-import Head from "next/head";
 import Script from "next/script";
 
 // Taken from https://github.com/leerob/leerob.io/blob/main/components/MDXComponents.tsx#L13

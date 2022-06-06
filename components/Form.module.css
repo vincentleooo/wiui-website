@@ -4,7 +4,7 @@
   color: white;
   margin: 5rem auto;
   text-align: center;
-  scroll-margin-top: 5rem;
+  scroll-margin-top: calc(3rem + 85px);
 }
 
 .main a {
@@ -83,6 +83,6 @@
     line-height: 2.5rem;
   }
   .main {
-    scroll-margin-top: 2rem;
+    scroll-margin-top: calc(85px + 2rem);
   }
 }
