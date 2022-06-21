@@ -38,7 +38,7 @@ export default function Index() {
           content="Spoon-feeding IDN sociopolitics in ENG, one ugly post at a time 🍉"
         />
         <meta property='og:title' content='What Is Up, Indonesia?'/>
-        <meta property='og:image' content='https://ibb.co/zFMtP9S'/>
+        <meta property='og:image' content='https://i.ibb.co/BGpYTWg/Screenshot-2022-06-21-at-22-38-17.png'/>
         <meta property='og:description' content='Spoon-feeding IDN sociopolitics in ENG, one ugly post at a time 🍉'/>
         <meta property='og:url' content='https://whatisupindonesia.com'/>
         <meta property='og:image:width' content='2560' />
