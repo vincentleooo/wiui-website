@@ -37,6 +37,13 @@ export default function Index() {
           name="description"
           content="Spoon-feeding IDN sociopolitics in ENG, one ugly post at a time 🍉"
         />
+        <meta property='og:title' content='What Is Up, Indonesia?'/>
+        <meta property='og:image' content='https://ibb.co/zFMtP9S'/>
+        <meta property='og:description' content='Spoon-feeding IDN sociopolitics in ENG, one ugly post at a time 🍉'/>
+        <meta property='og:url' content='https://whatisupindonesia.com'/>
+        <meta property='og:image:width' content='2560' />
+        <meta property='og:image:height' content='1600' />
+        <meta property="og:type" content='website'/>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
