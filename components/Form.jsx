@@ -28,7 +28,7 @@ export default function Form(props) {
           style={{
             width: "90%",
             maxWidth: "720px",
-            height: "290px",
+            height: "380px",
             border: "0px",
             backgroundColor: "rgb(243, 244, 246)",
             borderRadius: "10px",
