@@ -57,6 +57,7 @@ function MyApp({ Component, pageProps }) {
             a: CustomLink,
             ul: (props) => <ul {...props} className={styles.ul} />,
             ol: (props) => <ol {...props} className={styles.ol} />,
+            hr: (props => <hr {...props} className={styles.hr} />)
           }}
         >
           <Component {...pageProps} />

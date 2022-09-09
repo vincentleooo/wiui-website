@@ -363,16 +363,35 @@ function FifthContent() {
   );
 }
 
+
+// TODO Reconsider having this field
+// function SixthContent() {
+//   return (
+//     <div>
+//       <h1 className={styles.text}>“HELP... I LITERALLY KNOW NOTHING...”</h1>
+//       <p className={styles.caption}>Check out our crash course!</p>
+//       <CTAButton
+//         title="Indo Politics 101"
+//         styles={styles.firstCTAButton}
+//         path="/indo-politics-101"
+//       ></CTAButton>
+//     </div>
+//   );
+// }
+
 function SixthContent() {
   return (
     <div>
-      <h1 className={styles.text}>“HELP... I LITERALLY KNOW NOTHING...”</h1>
-      <p className={styles.caption}>Check out our crash course!</p>
-      <CTAButton
-        title="Indo Politics 101"
+      <h1 className={styles.text}>Politics made you anxious?</h1>
+      <p className={styles.caption}>Checkout WIUI’s collab with Ibunda.id to 
+provide you with free counseling with a peer counselor. Yes, for real.</p>
+      <DoubleCTAButton
+        title1="Free 'counselling'"
+        title2="Learn more"
         styles={styles.firstCTAButton}
-        path="/indo-politics-101"
-      ></CTAButton>
+        path1="https://www.ibunda.id/" // TODO Change the link when live
+        path2="/free-counselling"
+      ></DoubleCTAButton>
     </div>
   );
 }
@@ -447,12 +466,27 @@ function FifthImage({ height }) {
   );
 }
 
+// TODO Consider having this as well
+// function SixthImage({ height }) {
+//   return (
+//     <div className={styles.images} style={{ height: height }}>
+//       <Image
+//         className={styles.foundWebsite}
+//         src="/images/front-page-memes/strong-zero.webp"
+//         layout="fill"
+//         objectFit="contain"
+//         alt="Zero knowledge meme"
+//       ></Image>
+//     </div>
+//   );
+// }
+
 function SixthImage({ height }) {
   return (
     <div className={styles.images} style={{ height: height }}>
       <Image
         className={styles.foundWebsite}
-        src="/images/front-page-memes/strong-zero.webp"
+        src="/images/front-page-memes/ibunda.webp"
         layout="fill"
         objectFit="contain"
         alt="Zero knowledge meme"
