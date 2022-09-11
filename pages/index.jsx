@@ -296,6 +296,23 @@ function FirstContent() {
 function SecondContent() {
   return (
     <div>
+      <h1 className={styles.text}>Politics made you anxious?</h1>
+      <p className={styles.caption}>Checkout WIUI’s collab with Ibunda.id to 
+provide you with free counseling with a peer counselor. Yes, for real.</p>
+      <DoubleCTAButton
+        title1="Free 'counselling'"
+        title2="Learn more"
+        styles={styles.firstCTAButton}
+        path1="https://www.ibunda.id/freecurhat/wiui"
+        path2="/free-counselling"
+      ></DoubleCTAButton>
+    </div>
+  );
+}
+
+function ThirdContent() {
+  return (
+    <div>
       <h1 className={styles.text}>WE HAVE A NEWSLETTER NOW!</h1>
       <p className={styles.caption}>
         Receive up to date and easy to understand news and commentary in your
@@ -315,7 +332,7 @@ function SecondContent() {
   );
 }
 
-function ThirdContent() {
+function FourthContent() {
   return (
     <div>
       <h1 className={styles.text}>
@@ -333,7 +350,7 @@ function ThirdContent() {
   );
 }
 
-function FourthContent() {
+function FifthContent() {
   return (
     <div>
       <h1 className={styles.text}>
@@ -349,7 +366,7 @@ function FourthContent() {
   );
 }
 
-function FifthContent() {
+function SixthContent() {
   return (
     <div>
       <h1 className={styles.text}>“THERE’S SO MANY POLITICAL PARTIES I-”</h1>
@@ -363,19 +380,21 @@ function FifthContent() {
   );
 }
 
-function SixthContent() {
-  return (
-    <div>
-      <h1 className={styles.text}>“HELP... I LITERALLY KNOW NOTHING...”</h1>
-      <p className={styles.caption}>Check out our crash course!</p>
-      <CTAButton
-        title="Indo Politics 101"
-        styles={styles.firstCTAButton}
-        path="/indo-politics-101"
-      ></CTAButton>
-    </div>
-  );
-}
+
+// TODO Reconsider having this field
+// function SixthContent() {
+//   return (
+//     <div>
+//       <h1 className={styles.text}>“HELP... I LITERALLY KNOW NOTHING...”</h1>
+//       <p className={styles.caption}>Check out our crash course!</p>
+//       <CTAButton
+//         title="Indo Politics 101"
+//         styles={styles.firstCTAButton}
+//         path="/indo-politics-101"
+//       ></CTAButton>
+//     </div>
+//   );
+// }
 
 function FirstImage({ height }) {
   return (
@@ -447,12 +466,27 @@ function FifthImage({ height }) {
   );
 }
 
+// TODO Consider having this as well
+// function SixthImage({ height }) {
+//   return (
+//     <div className={styles.images} style={{ height: height }}>
+//       <Image
+//         className={styles.foundWebsite}
+//         src="/images/front-page-memes/strong-zero.webp"
+//         layout="fill"
+//         objectFit="contain"
+//         alt="Zero knowledge meme"
+//       ></Image>
+//     </div>
+//   );
+// }
+
 function SixthImage({ height }) {
   return (
     <div className={styles.images} style={{ height: height }}>
       <Image
         className={styles.foundWebsite}
-        src="/images/front-page-memes/strong-zero.webp"
+        src="/images/front-page-memes/ibunda.webp"
         layout="fill"
         objectFit="contain"
         alt="Zero knowledge meme"

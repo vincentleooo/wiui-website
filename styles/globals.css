@@ -66,6 +66,10 @@ p {
     sans-serif;
 }
 
+blockquote {
+  font-style: italic;
+}
+
 .shortBody {
   display: flex;
   flex-direction: column;

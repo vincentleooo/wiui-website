@@ -19,11 +19,11 @@ const navLinks = [
     path: "/newsletter",
     className: styles.newsletter,
   },
-  {
-    name: "Indo Politics 101",
-    path: "/indo-politics-101",
-    className: "",
-  },
+  // {
+  //   name: "Indo Politics 101",
+  //   path: "/indo-politics-101",
+  //   className: "",
+  // },
   {
     name: "Wiuipedia",
     path: "/wiuipedia",
@@ -32,6 +32,11 @@ const navLinks = [
   {
     name: "Party Profiles",
     path: "/party-profiles",
+    className: "",
+  },
+  {
+    name: "Free Counselling",
+    path: "/free-counselling",
     className: "",
   },
   {
@@ -58,11 +63,11 @@ const navLinksNarrow = [
         path: "/newsletter",
         className: styles.newsletter,
       },
-      {
-        name: "Indo Politics 101",
-        path: "/indo-politics-101",
-        className: "",
-      },
+      // {
+      //   name: "Indo Politics 101",
+      //   path: "/indo-politics-101",
+      //   className: "",
+      // },
       {
         name: "wiuipedia",
         path: "/wiuipedia",
@@ -71,6 +76,11 @@ const navLinksNarrow = [
       {
         name: "Party Profiles",
         path: "/party-profiles",
+        className: "",
+      },
+      {
+        name: "Free Counselling",
+        path: "/free-counselling",
         className: "",
       },
     ],
@@ -99,11 +109,11 @@ const navLinksMobile = [
         path: "/newsletter",
         className: styles.newsletter,
       },
-      {
-        name: "Indo Politics 101",
-        path: "/indo-politics-101",
-        className: "",
-      },
+      // {
+      //   name: "Indo Politics 101",
+      //   path: "/indo-politics-101",
+      //   className: "",
+      // },
       {
         name: "Wiuipedia",
         path: "/wiuipedia",
@@ -112,6 +122,11 @@ const navLinksMobile = [
       {
         name: "Party Profiles",
         path: "/party-profiles",
+        className: "",
+      },
+      {
+        name: "Free Counselling",
+        path: "/free-counselling",
         className: "",
       },
       {
