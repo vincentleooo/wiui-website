@@ -35,8 +35,8 @@ const navLinks = [
     className: "",
   },
   {
-    name: "Free Counselling",
-    path: "/free-counselling",
+    name: "Free Counseling",
+    path: "/free-counseling",
     className: "",
   },
   {
@@ -79,8 +79,8 @@ const navLinksNarrow = [
         className: "",
       },
       {
-        name: "Free Counselling",
-        path: "/free-counselling",
+        name: "Free Counseling",
+        path: "/free-counseling",
         className: "",
       },
     ],
@@ -125,8 +125,8 @@ const navLinksMobile = [
         className: "",
       },
       {
-        name: "Free Counselling",
-        path: "/free-counselling",
+        name: "Free Counseling",
+        path: "/free-counseling",
         className: "",
       },
       {

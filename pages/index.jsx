@@ -300,11 +300,11 @@ function SecondContent() {
       <p className={styles.caption}>Checkout WIUI’s collab with Ibunda.id to 
 provide you with free counseling with a peer counselor. Yes, for real.</p>
       <DoubleCTAButton
-        title1="Free 'counselling'"
+        title1="Free 'counseling'"
         title2="Learn more"
         styles={styles.firstCTAButton}
         path1="https://www.ibunda.id/freecurhat/wiui"
-        path2="/free-counselling"
+        path2="/free-counseling"
       ></DoubleCTAButton>
     </div>
   );
