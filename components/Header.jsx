@@ -14,11 +14,11 @@ const navLinks = [
     className: "",
   },
   { name: "Articles", path: "/articles", className: "articles" },
-  {
-    name: "Newsletter!",
-    path: "/newsletter",
-    className: styles.newsletter,
-  },
+  // {
+  //   name: "Newsletter!",
+  //   path: "/newsletter",
+  //   className: styles.newsletter,
+  // },
   // {
   //   name: "Indo Politics 101",
   //   path: "/indo-politics-101",
@@ -57,12 +57,12 @@ const navLinksNarrow = [
     path: "wuiboos-corner",
     className: styles.wuiboosCorner,
     submenu: [
-      { name: "Articles", path: "/articles", className: "articles" },
-      {
-        name: "Newsletter!",
-        path: "/newsletter",
-        className: styles.newsletter,
-      },
+      // { name: "Articles", path: "/articles", className: "articles" },
+      // {
+      //   name: "Newsletter!",
+      //   path: "/newsletter",
+      //   className: styles.newsletter,
+      // },
       // {
       //   name: "Indo Politics 101",
       //   path: "/indo-politics-101",
@@ -104,11 +104,11 @@ const navLinksMobile = [
         className: "",
       },
       { name: "Articles", path: "/articles", className: "articles" },
-      {
-        name: "Newsletter!",
-        path: "/newsletter",
-        className: styles.newsletter,
-      },
+      // {
+      //   name: "Newsletter!",
+      //   path: "/newsletter",
+      //   className: styles.newsletter,
+      // },
       // {
       //   name: "Indo Politics 101",
       //   path: "/indo-politics-101",
@@ -172,15 +172,15 @@ const MobileDropdown = ({ submenus, dropdown }) => {
 function MainLogo(props) {
   return (
     <Link href="./">
-        <Image
-          className={styles.logo}
-          src="/images/wiui-main.webp"
-          layout="fixed"
-          width={props.width}
-          height={props.height}
-          alt="WIUI's main logo"
-          priority="true"
-        ></Image>
+      <Image
+        className={styles.logo}
+        src="/images/wiui-main.webp"
+        layout="fixed"
+        width={props.width}
+        height={props.height}
+        alt="WIUI's main logo"
+        priority="true"
+      ></Image>
     </Link>
   );
 }

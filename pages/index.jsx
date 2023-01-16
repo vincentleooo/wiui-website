@@ -37,13 +37,19 @@ export default function Index() {
           name="description"
           content="Spoon-feeding IDN sociopolitics in ENG, one ugly post at a time 🍉"
         />
-        <meta property='og:title' content='What Is Up, Indonesia?'/>
-        <meta property='og:image' content='https://i.ibb.co/BGpYTWg/Screenshot-2022-06-21-at-22-38-17.png'/>
-        <meta property='og:description' content='Spoon-feeding IDN sociopolitics in ENG, one ugly post at a time 🍉'/>
-        <meta property='og:url' content='https://whatisupindonesia.com'/>
-        <meta property='og:image:width' content='2560' />
-        <meta property='og:image:height' content='1600' />
-        <meta property="og:type" content='website'/>
+        <meta property="og:title" content="What Is Up, Indonesia?" />
+        <meta
+          property="og:image"
+          content="https://i.ibb.co/BGpYTWg/Screenshot-2022-06-21-at-22-38-17.png"
+        />
+        <meta
+          property="og:description"
+          content="Spoon-feeding IDN sociopolitics in ENG, one ugly post at a time 🍉"
+        />
+        <meta property="og:url" content="https://whatisupindonesia.com" />
+        <meta property="og:image:width" content="2560" />
+        <meta property="og:image:height" content="1600" />
+        <meta property="og:type" content="website" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -77,11 +83,11 @@ export default function Index() {
               image={<FifthImage height="500px" />}
             ></LeftText>
             <Divider />
-            <RightText
+            {/* <RightText
               content={<SixthContent />}
               image={<SixthImage height="500px" />}
             ></RightText>
-            <Divider />
+            <Divider /> */}
             <LastComponent />
           </>
         )}
@@ -114,11 +120,11 @@ export default function Index() {
               image={<FifthImage height="200px" />}
             ></LeftText>
             <Divider />
-            <RightText
+            {/* <RightText
               content={<SixthContent />}
               image={<SixthImage height="200px" />}
             ></RightText>
-            <Divider />
+            <Divider /> */}
             <LastComponent />
           </>
         )}
@@ -208,11 +214,11 @@ function FirstComponent({ height }) {
         <br />
         You’ve come to the right place.
       </p>
-      <CTAButton
+      {/* <CTAButton
         title="Sign up for newsletter"
         styles={styles.firstCTAButton}
         path="/newsletter#newsletter-sign-up"
-      ></CTAButton>
+      ></CTAButton> */}
     </div>
   );
 }
@@ -220,7 +226,7 @@ function FirstComponent({ height }) {
 function LastComponent() {
   return (
     <div className={styles.frontPage} id="wuiboos-corner">
-      <h1 className={styles.sup} style={{marginBottom: "0"}}>
+      <h1 className={styles.sup} style={{ marginBottom: "0" }}>
         Wuiboos Corner
       </h1>
       <p className={styles.confused}>
@@ -233,7 +239,7 @@ function LastComponent() {
       <div className={styles.wuiboosCorner}>
         <div className={styles.wuiboosCornerChild}>
           <Discord />
-          <span style={{fontSize: "1.2rem"}}>&nbsp;</span>
+          <span style={{ fontSize: "1.2rem" }}>&nbsp;</span>
           <CTAButton
             title="Join Our Discord"
             path="https://discord.com/invite/EtBnwSt"
@@ -242,7 +248,7 @@ function LastComponent() {
         </div>
         <div className={styles.wuiboosCornerChild}>
           <WeeGombal />
-          <span style={{fontSize: "1.2rem"}}>&nbsp;</span>
+          <span style={{ fontSize: "1.2rem" }}>&nbsp;</span>
           <CTAButton
             title="Community-run Finsta"
             path="https://www.instagram.com/weeweegombal/"
@@ -280,7 +286,10 @@ function FirstContent() {
         Simply put, we’re a media platform that spoon-feeds Indonesian
         sociopolitics in english and memes.
       </p>
-      <p className={styles.caption} style={{ fontSize: "1rem", lineHeight: "1.2rem" }}>
+      <p
+        className={styles.caption}
+        style={{ fontSize: "1rem", lineHeight: "1.2rem" }}
+      >
         *currently still not an official newssite or professional. Prone to bias
         & error, so please verify everything and do your own research!
       </p>
@@ -297,8 +306,10 @@ function SecondContent() {
   return (
     <div>
       <h1 className={styles.text}>Politics made you anxious?</h1>
-      <p className={styles.caption}>Checkout WIUI’s collab with Ibunda.id to 
-provide you with free counseling with a peer counselor. Yes, for real.</p>
+      <p className={styles.caption}>
+        Checkout WIUI’s collab with Ibunda.id to provide you with free
+        counseling with a peer counselor. Yes, for real.
+      </p>
       <DoubleCTAButton
         title1="Free 'counseling'"
         title2="Learn more"
@@ -310,29 +321,29 @@ provide you with free counseling with a peer counselor. Yes, for real.</p>
   );
 }
 
-function ThirdContent() {
-  return (
-    <div>
-      <h1 className={styles.text}>WE HAVE A NEWSLETTER NOW!</h1>
-      <p className={styles.caption}>
-        Receive up to date and easy to understand news and commentary in your
-        inboxes every week!
-        <br />
-        <br />
-        Of course, in a fun WIUI fashion.
-      </p>
-      <DoubleCTAButton
-        title1="Learn More"
-        title2="I Trust U. Sign Me Up"
-        styles={styles.firstCTAButton}
-        path1="/newsletter"
-        path2="/newsletter#newsletter-sign-up"
-      ></DoubleCTAButton>
-    </div>
-  );
-}
+// function ThirdContent() {
+//   return (
+//     <div>
+//       <h1 className={styles.text}>WE HAVE A NEWSLETTER NOW!</h1>
+//       <p className={styles.caption}>
+//         Receive up to date and easy to understand news and commentary in your
+//         inboxes every week!
+//         <br />
+//         <br />
+//         Of course, in a fun WIUI fashion.
+//       </p>
+//       <DoubleCTAButton
+//         title1="Learn More"
+//         title2="I Trust U. Sign Me Up"
+//         styles={styles.firstCTAButton}
+//         path1="/newsletter"
+//         path2="/newsletter#newsletter-sign-up"
+//       ></DoubleCTAButton>
+//     </div>
+//   );
+// }
 
-function FourthContent() {
+function ThirdContent() {
   return (
     <div>
       <h1 className={styles.text}>
@@ -350,7 +361,7 @@ function FourthContent() {
   );
 }
 
-function FifthContent() {
+function FourthContent() {
   return (
     <div>
       <h1 className={styles.text}>
@@ -366,7 +377,7 @@ function FifthContent() {
   );
 }
 
-function SixthContent() {
+function FifthContent() {
   return (
     <div>
       <h1 className={styles.text}>“THERE’S SO MANY POLITICAL PARTIES I-”</h1>
@@ -379,7 +390,6 @@ function SixthContent() {
     </div>
   );
 }
-
 
 // TODO Reconsider having this field
 // function SixthContent() {
@@ -415,7 +425,7 @@ function SecondImage({ height }) {
     <div className={styles.images} style={{ height: height }}>
       <Image
         className={styles.foundWebsite}
-        src="/images/front-page-memes/newsletter.webp"
+        src="/images/front-page-memes/ibunda.webp"
         layout="fill"
         objectFit="contain"
         alt="Newsletter meme"
