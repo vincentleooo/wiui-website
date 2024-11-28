@@ -2,7 +2,7 @@
 // dropdown menu
 // (https://blog.logrocket.com/creating-multilevel-dropdown-menu-react/).
 
-import Image from "next/image";
+import Image from "next/legacy/image";
 import styles from "./Header.module.css";
 import Link from "next/link";
 import { useState, useEffect, useRef } from "react";
@@ -140,20 +140,20 @@ const navLinksMobile = [
 
 const Dropdown = ({ submenus, dropdown }) => {
   return (
-    <ul className={`${styles.dropdown} ${dropdown ? styles.show : ""}`}>
+    (<ul className={`${styles.dropdown} ${dropdown ? styles.show : ""}`}>
       {submenus.map((submenu, index) => (
         <li key={index} className={submenu.className}>
           <Link href={submenu.path}>
-            <a href={submenu.path}>{submenu.name}</a>
+            {submenu.name}
           </Link>
         </li>
       ))}
-    </ul>
+    </ul>)
   );
 };
 const MobileDropdown = ({ submenus, dropdown }) => {
   return (
-    <ul
+    (<ul
       className={`${styles.mobileDropdown} ${
         dropdown ? styles.mobileShow : ""
       }`}
@@ -161,17 +161,17 @@ const MobileDropdown = ({ submenus, dropdown }) => {
       {submenus.map((submenu, index) => (
         <li key={index} className={submenu.className}>
           <Link href={submenu.path}>
-            <a href={submenu.path}>{submenu.name}</a>
+            {submenu.name}
           </Link>
         </li>
       ))}
-    </ul>
+    </ul>)
   );
 };
 
 function MainLogo(props) {
   return (
-    <Link href="./">
+    (<Link href="./" legacyBehavior>
       <Image
         className={styles.logo}
         src="/images/wiui-main.webp"
@@ -181,7 +181,7 @@ function MainLogo(props) {
         alt="WIUI's main logo"
         priority="true"
       ></Image>
-    </Link>
+    </Link>)
   );
 }
 
@@ -225,7 +225,7 @@ export default function Header() {
   }, [dropdown]);
 
   return (
-    <div className={styles.container}>
+    (<div className={styles.container}>
       <div className={styles.main}>
         <MainLogo
           className={styles.logoContainer}
@@ -237,20 +237,20 @@ export default function Header() {
             mobile &&
             navLinks.map((link, index) => {
               return (
-                <ul key={index}>
-                  <Link href={link.path}>
+                (<ul key={index}>
+                  <Link href={link.path} legacyBehavior>
                     <li className={link.className}>
                       <a href={link.path}>{link.name}</a>
                     </li>
                   </Link>
-                </ul>
+                </ul>)
               );
             })}
           {!narrow &&
             mobile &&
             navLinksNarrow.map((link, index) => {
               return (
-                <ul key={index}>
+                (<ul key={index}>
                   {link.submenu ? (
                     <li ref={ref}>
                       <button
@@ -267,20 +267,20 @@ export default function Header() {
                       <Dropdown submenus={link.submenu} dropdown={dropdown} />
                     </li>
                   ) : (
-                    <Link href={link.path}>
+                    <Link href={link.path} legacyBehavior>
                       <li className={link.className}>
                         <a href={link.path}>{link.name}</a>
                       </li>
                     </Link>
                   )}
-                </ul>
+                </ul>)
               );
             })}
           {!narrow &&
             !mobile &&
             navLinksMobile.map((link, index) => {
               return (
-                <ul key={index}>
+                (<ul key={index}>
                   {link.submenu ? (
                     <li ref={ref}>
                       <button
@@ -306,17 +306,17 @@ export default function Header() {
                       />
                     </li>
                   ) : (
-                    <Link href={link.path}>
+                    <Link href={link.path} legacyBehavior>
                       <li className={link.className}>
                         <a href={link.path}>{link.name}</a>
                       </li>
                     </Link>
                   )}
-                </ul>
+                </ul>)
               );
             })}
         </nav>
       </div>
-    </div>
+    </div>)
   );
 }

@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import styles from "../styles/Index.module.css";
 import Link from "next/link";
 import { useState, useEffect } from "react";
@@ -135,32 +135,32 @@ export default function Index() {
 
 function CTAButton(props) {
   return (
-    <div className={props.styles}>
+    (<div className={props.styles}>
       <Link href={props.path ? props.path : ""}>
-        <a href={props.path ? props.path : ""}>
-          <button className={styles.ctaButton}>{props.title}</button>
-        </a>
+
+        <button className={styles.ctaButton}>{props.title}</button>
+
       </Link>
-    </div>
+    </div>)
   );
 }
 
 function CTAButtonWiuipedia(props) {
   return (
-    <div className={props.styles}>
+    (<div className={props.styles}>
       <Link href={props.path ? props.path : ""}>
-        <a href={props.path ? props.path : ""}>
-          <button className={styles.ctaButtonWiuipedia}>{props.title}</button>
-        </a>
+
+        <button className={styles.ctaButtonWiuipedia}>{props.title}</button>
+
       </Link>
-    </div>
+    </div>)
   );
 }
 
 function DoubleCTAButton(props) {
   return (
-    <div className={`${props.styles} ${styles.ctaButtonGrid}`}>
-      <Link href={props.path1 ? props.path1 : ""}>
+    (<div className={`${props.styles} ${styles.ctaButtonGrid}`}>
+      <Link href={props.path1 ? props.path1 : ""} legacyBehavior>
         <div className={styles.doubleCTAFirst}>
           <a href={props.path1 ? props.path1 : ""}>
             <button className={styles.ctaButtonSpecial}>{props.title1}</button>
@@ -168,20 +168,20 @@ function DoubleCTAButton(props) {
         </div>
       </Link>
       <Link href={props.path1 ? props.path1 : ""}>
-        <a href={props.path1 ? props.path1 : ""}>
-          <button
-            className={`${styles.ctaButtonSpecial} ${styles.doubleCTAFirstAlt}`}
-          >
-            {props.title1}
-          </button>
-        </a>
+
+        <button
+          className={`${styles.ctaButtonSpecial} ${styles.doubleCTAFirstAlt}`}
+        >
+          {props.title1}
+        </button>
+
       </Link>
       <Link href={props.path2 ? props.path2 : ""}>
-        <a href={props.path2 ? props.path2 : ""}>
-          <button className={styles.ctaButton}>{props.title2}</button>
-        </a>
+
+        <button className={styles.ctaButton}>{props.title2}</button>
+
       </Link>
-    </div>
+    </div>)
   );
 }
 
@@ -491,19 +491,19 @@ function FifthImage({ height }) {
 //   );
 // }
 
-function SixthImage({ height }) {
-  return (
-    <div className={styles.images} style={{ height: height }}>
-      <Image
-        className={styles.foundWebsite}
-        src="/images/front-page-memes/ibunda.webp"
-        layout="fill"
-        objectFit="contain"
-        alt="Zero knowledge meme"
-      ></Image>
-    </div>
-  );
-}
+// function SixthImage({ height }) {
+//   return (
+//     <div className={styles.images} style={{ height: height }}>
+//       <Image
+//         className={styles.foundWebsite}
+//         src="/images/front-page-memes/ibunda.webp"
+//         layout="fill"
+//         objectFit="contain"
+//         alt="Zero knowledge meme"
+//       ></Image>
+//     </div>
+//   );
+// }
 
 function Discord() {
   return (
