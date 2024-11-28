@@ -30,3 +30,9 @@ yarn-error.log*
 
 # vercel
 .vercel
+/.idea/.gitignore
+/.idea/modules.xml
+/pnpm-lock.yaml
+/.idea/inspectionProfiles/Project_Default.xml
+/.idea/vcs.xml
+/.idea/wiui-website.iml

@@ -3,7 +3,7 @@
 const withPlugins = require("next-compose-plugins");
 const nextConfig = {
   reactStrictMode: true,
-  experimental: { images: { layoutRaw: true } },
+  // experimental: { images: { layoutRaw: true } },
 }
 const withMDX = require('@next/mdx')({
   extension: /\.mdx?$/,

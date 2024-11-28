@@ -13,11 +13,11 @@ const CustomLink = (props) => {
 
   if (isInternalLink) {
     return (
-      <Link href={href}>
-        <a {...props} className={styles.link}>
-          {props.children}
-        </a>
-      </Link>
+      (<Link href={href} {...props} className={styles.link}>
+
+        {props.children}
+
+      </Link>)
     );
   }
 

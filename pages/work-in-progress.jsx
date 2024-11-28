@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import styles from "../styles/WIP.module.css";
 
 export default function WIP() {
