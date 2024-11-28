@@ -5,8 +5,8 @@ This is a website for What Is Up, Indonesia? (WIUI) written using the Next.js fr
 ## Setup
 
 1. Clone the repository. Make sure you have the latest version of Node.js installed.
-2. Run `yarn install` to install the package dependencies.
-3. Run `yarn dev` to start the `localhost` server.
+2. Run `pnpm install` to install the package dependencies.
+3. Run `pnpm run dev` to start the `localhost` server.
 
 ## Build status
 
